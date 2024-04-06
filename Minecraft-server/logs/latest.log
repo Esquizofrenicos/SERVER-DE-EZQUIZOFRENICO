@@ -1,0 +1,718 @@
+[06Apr2024 08:21:32.227] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[06Apr2024 08:21:32.231] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.2 by Microsoft; OS Linux arch amd64 version 6.2.0-1019-azure
+[06Apr2024 08:21:32.713] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[06Apr2024 08:21:32.723] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
+[06Apr2024 08:21:32.725] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file URL: union:/workspaces/codespaces-jupyter/Minecraft-server/mods/OptiFine_1.20.1_HD_U_I6.jar%23120!/
+[06Apr2024 08:21:32.732] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file: /workspaces/codespaces-jupyter/Minecraft-server/mods/OptiFine_1.20.1_HD_U_I6.jar
+[06Apr2024 08:21:32.735] [main/INFO] [optifine.OptiFineTransformer/]: Target.PRE_CLASS is available
+[06Apr2024 08:21:32.787] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/codespaces-jupyter/Minecraft-server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[06Apr2024 08:21:32.795] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.initialize
+[06Apr2024 08:21:33.158] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/codespaces-jupyter/Minecraft-server/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.0/fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
+[06Apr2024 08:21:33.160] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/codespaces-jupyter/Minecraft-server/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.0/javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[06Apr2024 08:21:33.161] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/codespaces-jupyter/Minecraft-server/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.0/lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[06Apr2024 08:21:33.163] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/codespaces-jupyter/Minecraft-server/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.0/mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[06Apr2024 08:21:33.296] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[06Apr2024 08:21:33.880] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.transformers
+[06Apr2024 08:21:33.896] [main/INFO] [optifine.OptiFineTransformer/]: Targets: 412
+[06Apr2024 08:21:34.598] [main/INFO] [optifine.OptiFineTransformationService/]: additionalClassesLocator: [optifine., net.optifine.]
+[06Apr2024 08:21:35.217] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[06Apr2024 08:21:35.250] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[06Apr2024 08:21:43.110] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
+[06Apr2024 08:21:43.115] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
+[06Apr2024 08:21:45.710] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[06Apr2024 08:21:46.095] [main/INFO] [journeymap/]: Initializing Packet Registries
+[06Apr2024 08:21:46.125] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.6.5 Target: null
+[06Apr2024 08:21:46.133] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[06Apr2024 08:21:46.153] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[06Apr2024 08:21:46.154] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[06Apr2024 08:21:46.154] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[06Apr2024 08:21:46.155] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[06Apr2024 08:21:46.248] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
+[06Apr2024 08:21:46.256] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[06Apr2024 08:21:46.279] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[06Apr2024 08:21:46.284] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[06Apr2024 08:21:46.287] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.gravestone.integration.waila.PluginGraveStone
+[06Apr2024 08:21:46.289] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.corpse.integration.waila.PluginCorpse
+[06Apr2024 08:21:46.290] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.waila.JadeDataProvider
+[06Apr2024 08:21:47.858] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[06Apr2024 08:21:48.940] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/codespaces-jupyter/Minecraft-server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23141!/assets/.mcassetsroot' uses unexpected schema
+[06Apr2024 08:21:48.940] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/codespaces-jupyter/Minecraft-server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23141!/data/.mcassetsroot' uses unexpected schema
+[06Apr2024 08:21:50.348] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[06Apr2024 08:21:50.894] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:wares:chests/village/badlands_warehouse
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'wares:cardboard_box'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.2.0-universal.jar%23146!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.2.0-universal.jar%23146!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[06Apr2024 08:21:50.929] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:ctov:chests/village/village_forager
+com.google.gson.JsonSyntaxException: Missing expand, expected to find a Boolean
+	at net.minecraft.util.GsonHelper.m_13912_(GsonHelper.java:181) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.TagEntry$Serializer.m_7267_(TagEntry.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.TagEntry$Serializer.m_7267_(TagEntry.java:72) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.2.0-universal.jar%23146!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.2.0-universal.jar%23146!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[06Apr2024 08:21:50.951] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:wares:chests/village/swamp_warehouse
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'wares:cardboard_box'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.2.0-universal.jar%23146!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.2.0-universal.jar%23146!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[06Apr2024 08:21:50.970] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:wares:chests/village/jungle_warehouse
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'wares:cardboard_box'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.2.0-universal.jar%23146!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.2.0-universal.jar%23146!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[06Apr2024 08:21:50.989] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:wares:chests/village/dark_forest_warehouse
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'wares:cardboard_box'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.2.0-universal.jar%23146!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.2.0-universal.jar%23146!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[06Apr2024 08:21:51.024] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:wares:chests/village/mushroom_warehouse
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'wares:cardboard_box'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.2.0-universal.jar%23146!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.2.0-universal.jar%23146!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[06Apr2024 08:21:51.049] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:wares:chests/village/mountain_warehouse
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'wares:cardboard_box'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.2.0-universal.jar%23146!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.2.0-universal.jar%23146!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[06Apr2024 08:21:51.076] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:wares:chests/village/beach_warehouse
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'wares:cardboard_box'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.2.0-universal.jar%23146!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.2.0-universal.jar%23146!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23141!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[06Apr2024 08:21:51.197] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[06Apr2024 08:21:51.383] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2528 advancements
+[06Apr2024 08:21:52.391] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[06Apr2024 08:21:52.392] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[06Apr2024 08:21:52.392] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[06Apr2024 08:21:52.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[06Apr2024 08:21:52.595] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[06Apr2024 08:21:52.616] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[06Apr2024 08:21:52.696] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06Apr2024 08:21:52.697] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[06Apr2024 08:21:52.697] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06Apr2024 08:21:52.697] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[06Apr2024 08:21:52.738] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[06Apr2024 08:21:52.739] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[06Apr2024 08:21:52.903] [Server thread/INFO] [Framework/]: Loading server configs...
+[06Apr2024 08:21:52.944] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[06Apr2024 08:21:56.808] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.2.0.jar%23142!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.2.0.jar%23142!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[06Apr2024 08:21:56.809] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[06Apr2024 08:21:57.017] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.2.0 Target: null
+[06Apr2024 08:21:57.021] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ctov] Starting version check at https://api.modrinth.com/updates/fgmhI8kH/forge_updates.json
+[06Apr2024 08:21:57.424] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ctov] Found status: UP_TO_DATE Current: 3.4.2 Target: null
+[06Apr2024 08:21:57.425] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://maxhenkel.de/update/gravestone.json
+[06Apr2024 08:21:58.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[06Apr2024 08:21:58.781] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: UP_TO_DATE Current: 1.20.1-1.0.10 Target: null
+[06Apr2024 08:21:58.782] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[06Apr2024 08:21:59.249] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.9.18 Target: 5.9.20
+[06Apr2024 08:21:59.250] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
+[06Apr2024 08:21:59.395] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: AHEAD Current: 1.20.1-1.0.12 Target: null
+[06Apr2024 08:21:59.396] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[06Apr2024 08:21:59.839] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.9 Target: null
+[06Apr2024 08:21:59.839] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[06Apr2024 08:21:59.882] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: UP_TO_DATE Current: 9.1.12 Target: null
+[06Apr2024 08:22:01.895] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Apr2024 08:22:01.897] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Apr2024 08:22:01.897] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Apr2024 08:22:01.898] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Apr2024 08:22:01.899] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Apr2024 08:22:01.899] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Apr2024 08:22:01.899] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Apr2024 08:22:01.900] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Apr2024 08:22:02.127] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Apr2024 08:22:02.630] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[06Apr2024 08:22:02.788] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4662 ms
+[06Apr2024 08:22:02.790] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (10.078s)! For help, type "help"
+[06Apr2024 08:22:02.833] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[06Apr2024 08:22:20.429] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[06Apr2024 08:22:20.485] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: TijuanaBby[/[::1]:42934] logged in with entity id 366 at (-4673.447090259514, 73.70523976876174, 1944.691391460128)
+[06Apr2024 08:22:20.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TijuanaBby joined the game
+[06Apr2024 08:22:20.736] [Server thread/INFO] [Jade/]: Syncing config to TijuanaBby (0231fd5d-ced2-313c-8752-a00a7cb71c3b)
+[06Apr2024 08:22:22.529] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[06Apr2024 08:22:32.699] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: TijuanaBby moved too quickly! -1.3692556931628133,0.15000000596046448,-10.399120708368628
+[06Apr2024 08:22:47.042] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Midrop[/[::1]:36320] logged in with entity id 648 at (-1023.6067223804326, 65.5, -3537.064401641084)
+[06Apr2024 08:22:47.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Midrop joined the game
+[06Apr2024 08:22:47.096] [Server thread/INFO] [Jade/]: Syncing config to Midrop (c9485a6b-9291-3a48-8043-690efd8a5864)
+[06Apr2024 08:22:49.342] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: TijuanaBby moved too quickly! 3.2233282589668306,0.0,-9.77122464818126
+[06Apr2024 08:22:49.355] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2233ms or 44 ticks behind
+[06Apr2024 08:22:53.747] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: carlitos263[/[::1]:37846] logged in with entity id 970 at (-613.5, 63.0, -456.5)
+[06Apr2024 08:22:53.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: carlitos263 joined the game
+[06Apr2024 08:22:53.839] [Server thread/INFO] [Jade/]: Syncing config to carlitos263 (5b5bee74-88ae-3aad-a9f9-a59d6c68ee65)
+[06Apr2024 08:22:53.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: carlitos263 has reached the goal [Easter]
+[06Apr2024 08:22:55.673] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Kgrr[/[::1]:37860] logged in with entity id 1097 at (-510.0105535765824, 63.5, -3114.2175036242775)
+[06Apr2024 08:22:55.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kgrr joined the game
+[06Apr2024 08:22:55.723] [Server thread/INFO] [Jade/]: Syncing config to Kgrr (533b7172-cd18-3000-93fc-067c89acb1a7)
+[06Apr2024 08:23:47.019] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Zeta[/[::1]:51412] logged in with entity id 1852 at (-4284.038038806983, 68.0, 1964.4963401835298)
+[06Apr2024 08:23:47.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Zeta joined the game
+[06Apr2024 08:23:47.061] [Server thread/INFO] [Jade/]: Syncing config to Zeta (be28fd3d-fb50-364f-bc7e-3fff7e84e6f8)
+[06Apr2024 08:24:00.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: carlitos263 has made the advancement [Alex's Mobs]
+[06Apr2024 08:24:16.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TijuanaBby: Teleported carlitos263 to TijuanaBby]
+[06Apr2024 08:25:11.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TijuanaBby: Set carlitos263's game mode to Creative Mode]
+[06Apr2024 08:25:56.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TijuanaBby: Teleported TijuanaBby to Kgrr]
+[06Apr2024 08:26:01.156] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iLucky52[/[::1]:43096] logged in with entity id 3668 at (-552.9235911705034, 71.66410900057113, -3344.549247956315)
+[06Apr2024 08:26:01.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLucky52 joined the game
+[06Apr2024 08:26:01.206] [Server thread/INFO] [Jade/]: Syncing config to iLucky52 (0d9d289e-6837-3112-84a4-730a0f30ba6e)
+[06Apr2024 08:26:01.738] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: carlitos263 moved too quickly! -1.438007624596139,3.6292348082512262,-10.403527925011076
+[06Apr2024 08:27:38.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <TijuanaBby> SMG /msg carlitos263 QUIERO SEXO ANAL
+[06Apr2024 08:27:56.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] * Midrop se desviste
+[06Apr2024 08:28:09.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] * Midrop hola
+[06Apr2024 08:28:29.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLucky52 has completed the challenge [Cover Me in Debris]
+[06Apr2024 08:29:19.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] * carlitos263 por que mi pene es cuadrado
+[06Apr2024 08:30:32.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kgrr: Teleported Kgrr to carlitos263]
+[06Apr2024 08:30:49.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kgrr: Teleported Kgrr to TijuanaBby]
+[06Apr2024 08:31:03.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kgrr: Teleported carlitos263 to Kgrr]
+[06Apr2024 08:33:02.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLucky52 has made the advancement [Ice Bucket Challenge]
+[06Apr2024 08:33:20.844] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/1307, l='ServerLevel[world]', x=-656.24, y=66.00, z=-3045.53] died, message: 'Unemployed hit the ground too hard'
+[06Apr2024 08:34:54.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TijuanaBby: Teleported TijuanaBby to Zeta]
+[06Apr2024 08:35:47.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TijuanaBby: Teleported TijuanaBby to Midrop]
+[06Apr2024 08:36:25.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TijuanaBby: Teleported TijuanaBby to iLucky52]
+[06Apr2024 08:37:46.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Zeta has made the advancement [Easter Egg Searcher]
+[06Apr2024 08:37:58.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TijuanaBby: Teleported TijuanaBby to Kgrr]
+[06Apr2024 08:40:00.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kgrr has made the advancement [Easter Egg Searcher]
+[06Apr2024 08:43:18.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: carlitos263 has reached the goal [Hired Help]
+[06Apr2024 08:44:53.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TijuanaBby has made the advancement [Acquire Hardware]
+[06Apr2024 08:51:24.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: carlitos263 has made the advancement [You Are A Pirate]
+[06Apr2024 08:51:37.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: carlitos263 has made the advancement [Diamonds!]
+[06Apr2024 08:51:57.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: carlitos263 has made the advancement [Acquire Hardware]
+[06Apr2024 08:52:03.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Midrop has made the advancement [A Seedy Place]
+[06Apr2024 08:53:54.189] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/1308, l='ServerLevel[world]', x=-655.03, y=67.00, z=-3049.15] died, message: 'Unemployed hit the ground too hard'
+[06Apr2024 08:57:40.989] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-27, y=-51, z=-356}
+[06Apr2024 08:57:40.991] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-26, y=-57, z=-359}
+[06Apr2024 08:57:42.220] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-33, y=-52, z=-356}
+[06Apr2024 08:57:42.221] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-39, y=-51, z=-358}
+[06Apr2024 08:57:42.221] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-39, y=-51, z=-356}
+[06Apr2024 08:57:42.222] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-35, y=-51, z=-362}
+[06Apr2024 08:57:42.222] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-36, y=-56, z=-356}
+[06Apr2024 08:58:10.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TijuanaBby: Teleported TijuanaBby to Kgrr]
+[06Apr2024 08:58:16.482] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/1273, l='ServerLevel[world]', x=-605.50, y=65.00, z=-3034.82] died, message: 'Farmer hit the ground too hard'
+[06Apr2024 09:00:34.994] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iLucky52 lost connection: Disconnected
+[06Apr2024 09:00:34.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLucky52 left the game
+[06Apr2024 09:00:35.050] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[06Apr2024 09:01:11.522] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iLucky52[/[::1]:50448] logged in with entity id 32501 at (-570.4411313244474, 82.83998821369356, -3313.051401010419)
+[06Apr2024 09:01:11.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLucky52 joined the game
+[06Apr2024 09:01:11.568] [Server thread/INFO] [Jade/]: Syncing config to iLucky52 (0d9d289e-6837-3112-84a4-730a0f30ba6e)
+[06Apr2024 09:02:00.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TijuanaBby: Teleported Midrop to TijuanaBby]
+[06Apr2024 09:04:51.441] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Midrop lost connection: Timed out
+[06Apr2024 09:04:51.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Midrop left the game
+[06Apr2024 09:05:04.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kgrr: Teleported Kgrr to iLucky52]
+[06Apr2024 09:05:20.000] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@58e4927c[id=<null>,name=Midrop,properties={},legacy=false] (/[::1]:59320) lost connection: Disconnected
+[06Apr2024 09:05:29.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kgrr has made the advancement [We Need to Go Deeper]
+[06Apr2024 09:05:29.291] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iLucky52 moved too quickly! 5.1480059415164305,-5.466756272946554,6.682155564662935
+[06Apr2024 09:05:51.746] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@4b356bcb[id=<null>,name=Midrop,properties={},legacy=false] (/[::1]:52208) lost connection: Disconnected
+[06Apr2024 09:06:13.245] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: carlitos263 moved too quickly! -1.1883723992213504,2.052970461098937,-10.013982290903186
+[06Apr2024 09:06:19.016] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: carlitos263 moved too quickly! -7.278752641166648,0.0,-8.113338802088947
+[06Apr2024 09:06:19.026] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: TijuanaBby moved too quickly! 8.322492666875917,0.0,-5.950738408111647
+[06Apr2024 09:06:19.038] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iLucky52 moved too quickly! -4.86852468757138,8.318765673499428,2.8149409173429376
+[06Apr2024 09:06:19.042] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4471ms or 89 ticks behind
+[06Apr2024 09:06:23.594] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Midrop[/[::1]:48020] logged in with entity id 35799 at (-571.85640304487, 70.27326411452476, -3305.726830355636)
+[06Apr2024 09:06:23.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Midrop joined the game
+[06Apr2024 09:06:23.658] [Server thread/INFO] [Jade/]: Syncing config to Midrop (c9485a6b-9291-3a48-8043-690efd8a5864)
+[06Apr2024 09:06:53.734] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Midrop lost connection: Timed out
+[06Apr2024 09:06:53.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Midrop left the game
+[06Apr2024 09:07:04.884] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1f786413[id=<null>,name=Midrop,properties={},legacy=false] (/[::1]:52664) lost connection: Disconnected
+[06Apr2024 09:07:25.448] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Midrop[/[::1]:33576] logged in with entity id 36465 at (-635.1697158633987, 77.01759625423377, -3293.1967211755755)
+[06Apr2024 09:07:25.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Midrop joined the game
+[06Apr2024 09:07:25.500] [Server thread/INFO] [Jade/]: Syncing config to Midrop (c9485a6b-9291-3a48-8043-690efd8a5864)
+[06Apr2024 09:12:10.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TijuanaBby: Set the time to 13000]
+[06Apr2024 09:13:27.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLucky52 has made the advancement [We Need to Go Deeper]
+[06Apr2024 09:15:56.247] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Midrop lost connection: Timed out
+[06Apr2024 09:15:56.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Midrop left the game
+[06Apr2024 09:15:56.391] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: TijuanaBby lost connection: Timed out
+[06Apr2024 09:15:56.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TijuanaBby left the game
+[06Apr2024 09:15:56.438] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[06Apr2024 09:15:58.388] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iLucky52 lost connection: Timed out
+[06Apr2024 09:15:58.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLucky52 left the game
+[06Apr2024 09:15:58.538] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: carlitos263 moved too quickly! 4.918823933834233,-6.593821145304659,5.774096165936953
+[06Apr2024 09:15:58.591] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kgrr moved too quickly! -8.790840468791657,0.0,4.789250658143374
+[06Apr2024 09:16:05.641] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iLucky52[/[::1]:39566] logged in with entity id 42573 at (-67.95152464338767, 95.57628673790344, -421.96974958627163)
+[06Apr2024 09:16:05.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLucky52 joined the game
+[06Apr2024 09:16:05.650] [Server thread/INFO] [Jade/]: Syncing config to iLucky52 (0d9d289e-6837-3112-84a4-730a0f30ba6e)
+[06Apr2024 09:16:14.890] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@169dad24[id=<null>,name=Midrop,properties={},legacy=false] (/[::1]:56316) lost connection: Disconnected
+[06Apr2024 09:16:30.248] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: carlitos263 lost connection: Disconnected
+[06Apr2024 09:16:30.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: carlitos263 left the game
+[06Apr2024 09:16:30.849] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: TijuanaBby[/[::1]:50990] logged in with entity id 42932 at (-479.3644511396697, 63.0, -3146.530741651272)
+[06Apr2024 09:16:30.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TijuanaBby joined the game
+[06Apr2024 09:16:30.893] [Server thread/INFO] [Jade/]: Syncing config to TijuanaBby (0231fd5d-ced2-313c-8752-a00a7cb71c3b)
+[06Apr2024 09:16:38.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kgrr: Set own game mode to Survival Mode]
+[06Apr2024 09:16:53.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Zeta has made the advancement [Sweet Dreams]
+[06Apr2024 09:16:57.147] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@4f7f3c36[id=<null>,name=Midrop,properties={},legacy=false] (/[::1]:50980) lost connection: Disconnected
+[06Apr2024 09:17:06.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kgrr has made the advancement [Sweet Dreams]
+[06Apr2024 09:17:09.248] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Midrop[/[::1]:51600] logged in with entity id 43236 at (-1054.971923327057, 67.34498037189407, -3523.584558488411)
+[06Apr2024 09:17:09.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Midrop joined the game
+[06Apr2024 09:17:09.265] [Server thread/INFO] [Jade/]: Syncing config to Midrop (c9485a6b-9291-3a48-8043-690efd8a5864)
+[06Apr2024 09:17:39.348] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Midrop lost connection: Timed out
+[06Apr2024 09:17:39.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Midrop left the game
+[06Apr2024 09:17:59.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kgrr: Set the time to 0]
+[06Apr2024 09:18:05.900] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Midrop[/[::1]:47556] logged in with entity id 43950 at (-1054.971923327057, 67.34498037189407, -3523.584558488411)
+[06Apr2024 09:18:05.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Midrop joined the game
+[06Apr2024 09:18:05.916] [Server thread/INFO] [Jade/]: Syncing config to Midrop (c9485a6b-9291-3a48-8043-690efd8a5864)
+[06Apr2024 09:18:27.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TijuanaBby: Gamerule doDaylightCycle is now set to: false]
+[06Apr2024 09:18:32.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TijuanaBby: Set the weather to clear]
+[06Apr2024 09:18:44.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TijuanaBby: Gamerule doWeatherCycle is now set to: false]
+[06Apr2024 09:20:06.204] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Midrop lost connection: Timed out
+[06Apr2024 09:20:06.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Midrop left the game
+[06Apr2024 09:23:17.194] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Midrop[/[::1]:39940] logged in with entity id 46829 at (-1047.276437376407, 68.40779718977033, -3510.3253135470013)
+[06Apr2024 09:23:17.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Midrop joined the game
+[06Apr2024 09:23:17.211] [Server thread/INFO] [Jade/]: Syncing config to Midrop (c9485a6b-9291-3a48-8043-690efd8a5864)
+[06Apr2024 09:24:38.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TijuanaBby: Set own game mode to Survival Mode]
+[06Apr2024 09:24:49.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TijuanaBby: Set own game mode to Creative Mode]
+[06Apr2024 09:28:55.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kgrr: Teleported Kgrr to Zeta]
+[06Apr2024 09:29:07.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLucky52 has made the advancement [Isn't It Iron Pick]
+[06Apr2024 09:29:29.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLucky52 has made the advancement [Suit Up]
+[06Apr2024 09:30:20.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kgrr: Teleported Kgrr to Midrop]
+[06Apr2024 09:31:59.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kgrr: Teleported iLucky52 to Kgrr]
+[06Apr2024 09:35:27.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kgrr: Teleported Kgrr to Midrop]
+[06Apr2024 09:35:32.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kgrr: Teleported iLucky52 to Kgrr]
+[06Apr2024 09:37:38.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kgrr: Teleported Kgrr to TijuanaBby]
+[06Apr2024 09:48:08.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TijuanaBby: Set own game mode to Survival Mode]
+[06Apr2024 09:49:42.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TijuanaBby has made the advancement [Easter Egg Searcher]
+[06Apr2024 09:50:16.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TijuanaBby has made the advancement [Stone Age]
+[06Apr2024 09:51:31.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TijuanaBby has made the advancement [Getting an Upgrade]
+[06Apr2024 09:51:32.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kgrr has made the advancement [A Seedy Place]
+[06Apr2024 09:53:57.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLucky52 has made the advancement [Monster Hunter]
+[06Apr2024 10:00:17.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kgrr: Set iLucky52's game mode to Survival Mode]
+[06Apr2024 10:04:45.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TijuanaBby has made the advancement [You Are A Pirate]
+[06Apr2024 10:04:51.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kgrr has made the advancement [Chompy]
+[06Apr2024 10:05:01.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLucky52 has made the advancement [Chompy]
+[06Apr2024 10:05:05.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLucky52 has made the advancement [Knowledge of Death]
+[06Apr2024 10:05:05.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLucky52 has reached the goal [Strong or Careful]
+[06Apr2024 10:05:05.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLucky52 was slain by Crocodile
+[06Apr2024 10:05:05.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLucky52 has made the advancement [Your First Grave]
+[06Apr2024 10:05:05.555] [Server thread/INFO] [tombstone/]: The player iLucky52 has successfully been saved
+[06Apr2024 10:05:18.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kgrr has made the advancement [All Along The Watchtower]
+[06Apr2024 10:05:39.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kgrr: Teleported iLucky52 to Kgrr]
+[06Apr2024 10:06:09.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kgrr was slain by Zombie Villager
+[06Apr2024 10:06:09.717] [Server thread/INFO] [tombstone/]: The player Kgrr has successfully been saved
+[06Apr2024 10:06:17.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kgrr: Teleported Kgrr to iLucky52]
+[06Apr2024 10:06:47.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kgrr has reached the goal [Here They Come]
+[06Apr2024 10:07:00.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kgrr has made the advancement [A Strange Grave Dust]
+[06Apr2024 10:07:03.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLucky52 has made the advancement [Getting an Upgrade]
+[06Apr2024 10:07:31.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TijuanaBby: Set the time to 1000]
+[06Apr2024 10:07:55.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLucky52 has made the advancement [All Along The Watchtower]
+[06Apr2024 10:08:37.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kgrr has made the advancement [The Lighthouse]
+[06Apr2024 10:08:54.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLucky52 has made the advancement [The Lighthouse]
+[06Apr2024 10:09:26.661] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2840ms or 56 ticks behind
+[06Apr2024 10:09:26.740] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: TijuanaBby moved too quickly! -0.8271793411357748,1.0244240882136921,-10.03066276200525
+[06Apr2024 10:09:29.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kgrr has made the advancement [Acquire Hardware]
+[06Apr2024 10:10:16.595] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/55526, l='ServerLevel[world]', x=-1035.56, y=65.00, z=-3737.37] died, message: 'Farmer was slain by Zombie Villager'
+[06Apr2024 10:10:36.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TijuanaBby has made the advancement [Knowledge of Death]
+[06Apr2024 10:10:36.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TijuanaBby has reached the goal [Strong or Careful]
+[06Apr2024 10:10:36.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TijuanaBby was slain by Husk
+[06Apr2024 10:10:36.796] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TijuanaBby has made the advancement [Your First Grave]
+[06Apr2024 10:10:36.814] [Server thread/INFO] [tombstone/]: The player TijuanaBby has successfully been saved
+[06Apr2024 10:10:38.200] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Midrop lost connection: Timed out
+[06Apr2024 10:10:38.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Midrop left the game
+[06Apr2024 10:11:00.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TijuanaBby has reached the goal [Here They Come]
+[06Apr2024 10:11:06.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TijuanaBby was slain by Husk
+[06Apr2024 10:11:06.757] [Server thread/INFO] [tombstone/]: The player TijuanaBby has successfully been saved
+[06Apr2024 10:12:06.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TijuanaBby has reached the goal [Chain Death]
+[06Apr2024 10:12:06.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TijuanaBby was slain by Husk
+[06Apr2024 10:12:06.514] [Server thread/INFO] [tombstone/]: The player TijuanaBby has successfully been saved
+[06Apr2024 10:12:07.584] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: TijuanaBby moved wrongly!
+[06Apr2024 10:12:28.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLucky52 has made the advancement [Ambush]
+[06Apr2024 10:12:36.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLucky52 has made the advancement [A Strange Grave Dust]
+[06Apr2024 10:12:36.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TijuanaBby was slain by Husk
+[06Apr2024 10:12:36.805] [Server thread/INFO] [tombstone/]: The player TijuanaBby has successfully been saved
+[06Apr2024 10:12:37.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLucky52 has made the advancement [Easter Egg Searcher]
+[06Apr2024 10:16:28.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kgrr has made the advancement [Not Today, Thank You]
+[06Apr2024 10:16:34.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kgrr has made the advancement [Ambush]
+[06Apr2024 10:18:18.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TijuanaBby has made the advancement [The Lighthouse]
+[06Apr2024 10:18:46.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kgrr has made the advancement [Suit Up]
+[06Apr2024 10:18:47.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TijuanaBby has made the advancement [All Along The Watchtower]
+[06Apr2024 10:19:10.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TijuanaBby has made the advancement [Suit Up]
+[06Apr2024 10:21:53.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kgrr fell from a high place
+[06Apr2024 10:21:53.368] [Server thread/INFO] [tombstone/]: The player Kgrr has successfully been saved
+[06Apr2024 10:22:07.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kgrr: Teleported Kgrr to TijuanaBby]
+[06Apr2024 10:25:20.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLucky52 has made the advancement [Acquire Hardware]
+[06Apr2024 10:27:36.431] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-320, y=-45, z=-203}
+[06Apr2024 10:27:56.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iLucky52 has made the advancement [It's an Emu!!!]
+[06Apr2024 10:28:15.143] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kgrr lost connection: Disconnected
+[06Apr2024 10:28:15.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kgrr left the game
+[06Apr2024 10:28:25.011] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: TijuanaBby lost connection: Disconnected
+[06Apr2024 10:28:25.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TijuanaBby left the game
